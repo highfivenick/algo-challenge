@@ -6,6 +6,14 @@
 
 function chunkArray(array, size) {
     // Code goes here
+    let newArrs = []
+
+    for (i = 0; i < array.length; i += size) {
+        let chunks = array.slice(i, i + size)
+        newArrs.push(chunks)
+    }
+
+    return newArrs
 }
 
 

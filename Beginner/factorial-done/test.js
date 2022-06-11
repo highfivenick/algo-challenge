@@ -4,7 +4,7 @@ test('factorial is a function', () => {
   expect(typeof factorial).toEqual('function')
 })
 
-test('returns the factorial of 20', () => {
+test('returns the factorial of 10', () => {
   expect(factorial(10)).toEqual(3628800)
 })
 

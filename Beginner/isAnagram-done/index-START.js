@@ -9,6 +9,20 @@ don't. E.g
 
 function isAnagram(stringA, stringB) {
     // Code goes here
+    arrA = stringA.toLowerCase().split('').sort()
+    arrB = stringB.toLowerCase().split('').sort()
+
+    console.log(arrA, arrB)
+    
+
+    
+    if (arrA.join() === arrB.join()){
+        return true
+    }else {
+        return false
+    }
+
+
 }
 
 
